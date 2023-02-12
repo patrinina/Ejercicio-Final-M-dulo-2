@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Create Account</title>
+</head>
+  <title>Create Account</title>
+<body>
+<form class="formulario" id="formulario">
+
+   		<h4>Create Account</h4>
+			<div class="form__content">
+
+			</div>
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__nombre">
+				<label for="nombre" class="formulario__label">Nombre</label>
+				<div class="formulario__grupo-input">
+					<input value="" type="text" class="formulario__input" name="nombre" id="nombre">
+					<img class="formulario__image" />
+				</div>
+				<p class="formulario__input-error">Sólo puede contener letras.</p>
+			</div>
+			<!-- Grupo: Email -->
+			<div class="formulario__grupo" id="grupo__correo">
+				<label for="correo" class="formulario__label">Email</label>
+				<div class="formulario__grupo-input">
+					<input value="" type="email" class="formulario__input" name="correo" id="correo">
+					<img class="formulario__image" />
+				</div>
+				<p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Contraseña -->
+			<div class="formulario__grupo" id="grupo__password">
+				<label for="password" class="formulario__label">Clave</label>
+				<div class="formulario__grupo-input">
+					<input value="" type="password" class="formulario__input" name="password" id="password">
+					<img class="formulario__image" />
+				</div>
+				<p class="formulario__input-error">No debe tener más de 8 caracteres.</p>
+			</div>
+
+			<!-- Grupo: Contraseña 2 -->
+			<div class="formulario__grupo" id="grupo__password2">
+				<label for="password2" class="formulario__label">Confirme su clave</label>
+				<div class="formulario__grupo-input">
+					<input value="" type="password" class="formulario__input" name="password2" id="password2">
+					<img class="formulario__image" />
+				</div>
+				<p class="formulario__input-error">Las contraseñas no coinciden.</p>
+			</div>
+
+			<div class="formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">ENVIAR</button>
+	
+			</div>
+		</form>
+
+	<script src="index.js"></script>
+
+
+
+</body>
+</html>
